@@ -1,0 +1,5 @@
+# why not delete
+
+In typical C++ the rule would be "write one delete for every new". An even more advanced rule would be "probably don't write new or delete and bury that in the RIAA pattern instead". Qt changes the rule in this regard because it introduces its own memory management paradigm. It's based on parent/child relationships. QWidgets that are newed can be given a parentWidget(). When the parentWidget() is destroyed, all of its children will be destroyed. Hence, in Qt it is common practice to allocate objects on the stack with new, give them a parent, and never delete the memory yourself. The rules get more complicated with QLayout and such becomes sometimes Qt objects take ownership of widgets and sometimes they don't.
+
+In your case, you probably don't need the deleteLater call. That posts a message to Qt's internal event loop. The message says, "Delete me when you get a chance!" If you want the class to manage wd just give it a parent of this. Then the whole parent/child tree will get deleted when your class is deleted.

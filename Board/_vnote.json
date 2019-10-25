@@ -1,0 +1,28 @@
+{
+    "attachment_folder": "_v_attachments",
+    "created_time": "2018-10-10T10:09:34Z",
+    "files": [
+    ],
+    "image_folder": "",
+    "recycle_bin_folder": "_v_recycle_bin",
+    "sub_directories": [
+        {
+            "name": "common"
+        },
+        {
+            "name": "resouces"
+        },
+        {
+            "name": "Qt"
+        },
+        {
+            "name": "English"
+        },
+        {
+            "name": "Language"
+        }
+    ],
+    "tags": [
+    ],
+    "version": "1"
+}
