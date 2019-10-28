@@ -1,0 +1,16 @@
+vnote_backup_file_826537664 E:/gits/SitanChen2019/MyVNotes/Deep/SoftwareEngine/CICD.md
+# CICD
+Do you want your engineering team to deliver bug-free code at high velocity? A fast and reliable CI/CD pipeline is crucial for doing that sustainably over time.
+
+What is a CI/CD pipeline?
+A CI/CD pipeline helps you automate steps in your software delivery process, such as initiating code builds, running automated tests, and deploying to a staging or production environment. Automated pipelines remove manual errors, provide standardized development feedback loops and enable fast product iterations.
+
+What do CI and CD mean?
+CI, short for Continuous Integration, is a software development practice in which all developers merge code changes in a central repository multiple times a day. CD stands for Continuous Delivery, which on top of Continuous Integration adds the practice of automating the entire software release process.
+
+With CI, each change in code triggers an automated build-and-test sequence for the given project, providing feedback to the developer(s) who made the change. The entire CI feedback loop should run in less than 10 minutes.
+
+Continuous Delivery includes infrastructure provisioning and deployment, which may be manual and consist of multiple stages. What’s important is that all these processes are fully automated, with each run fully logged and visible to the entire team.
+
+
+[CICD_pipeline](https://semaphoreci.com/blog/cicd-pipeline)
