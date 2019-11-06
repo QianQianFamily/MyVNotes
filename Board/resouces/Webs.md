@@ -11,3 +11,5 @@
 [Realtime Rendering with lots of books](http://www.realtimerendering.com/)
 
 [EPDF](https://epdf.pub)
+
+[CUDA webinars](https://developer.nvidia.com/gpu-computing-webinars-old)
