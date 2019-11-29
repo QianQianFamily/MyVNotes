@@ -32,6 +32,9 @@
         },
         {
             "name": "SoftwareEngine"
+        },
+        {
+            "name": "CUDA"
         }
     ],
     "tags": [
