@@ -13,3 +13,5 @@
 [EPDF](https://epdf.pub)
 
 [CUDA webinars](https://developer.nvidia.com/gpu-computing-webinars-old)
+
+[graphcis models](https://casual-effects.com/data/)
